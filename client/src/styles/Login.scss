@@ -35,14 +35,14 @@
       gap: 15px;
 
       input {
-        width: 100%;
-        padding: 7px 15px;
-        background-color: transparent;
-        border: none;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        outline: none;
-        text-align: center;
-        color: white;
+        width: 100%; // Input chiếm 100% chiều rộng
+        padding: 7px 15px; // Khoảng đệm bên trong input
+        background-color: transparent; // Nền trong suốt
+        border: none; // Không viền
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3); // Viền dưới mờ
+        outline: none; // Loại bỏ đường viền khi focus
+        text-align: center; // Căn giữa văn bản
+        color: white; // Màu chữ trắng
 
         input:not(:placeholder-shown):focus {
           background: transparent; /* or background: none; */
